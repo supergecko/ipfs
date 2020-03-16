@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "产品信息",
+  "titleNView": {
+    "titleColor": "black"
+  },
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "yp-number-box": "/components/yp-number-box/yp-number-box"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left",
+        "color": "#000000"
+      }
+    ],
+    "titleColor": "black"
+  },
+  "usingComponents": {
+    "q-s-tabs": "/components/QS-tabs/QS-tabs",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

@@ -1,0 +1,83 @@
+
+view.data-v-6f990f5e,scroll-view.data-v-6f990f5e{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.QS-segmented-control.data-v-6f990f5e{
+	width: 100%;
+	-webkit-transition-property: background-color,color;
+	-o-transition-property: background-color,color;
+	transition-property: background-color,color;
+}
+.QS-segmented-control-scroll.data-v-6f990f5e {
+	width: 100%;
+	white-space: nowrap;
+	position: relative;
+}
+.QS-segmented-control-scroll-item.data-v-6f990f5e{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	-webkit-transition-property: background-color,color;
+	-o-transition-property: background-color,color;
+	transition-property: background-color,color;
+	padding: 0 20rpx;
+}
+.content.data-v-6f990f5e{
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.boxStyle.data-v-6f990f5e{
+	pointer-events: none;
+	position: absolute;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+}
+.boxStyle2.data-v-6f990f5e{
+	pointer-events: none;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+}
+.itemBackgroundBox.data-v-6f990f5e{
+	pointer-events: none;
+	position: absolute;
+	top:0;
+	left: 0;
+	-webkit-transition-property: background-color,-webkit-transform;
+	transition-property: background-color,-webkit-transform;
+	-o-transition-property: transform,background-color;
+	transition-property: transform,background-color;
+	transition-property: transform,background-color,-webkit-transform;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.itemBackground.data-v-6f990f5e{
+	height: 100%;
+	width: 100%;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+}
+

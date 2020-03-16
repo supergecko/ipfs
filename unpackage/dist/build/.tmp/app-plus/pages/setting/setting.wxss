@@ -1,0 +1,46 @@
+
+page {
+background-color: rgb(245, 245, 245);
+}
+
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('https://at.alicdn.com/t/font_1456673_4pxyw8wa6af.ttf') format('truetype');
+}
+.icon.data-v-15bb5e04 {
+	font-family: iconfont;
+	margin-left: 10rpx;
+}
+.setTingItem.data-v-15bb5e04 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(21, 20, 20, 1);
+	padding: 40rpx 30rpx 40rpx 38rpx;
+	background: #FFF;
+}
+.borderPx.data-v-15bb5e04 {
+	height: 1rpx;
+}
+.loginOut.data-v-15bb5e04 {
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(66, 162, 236, 1);
+	height: 110rpx;
+	line-height: 110rpx;
+	text-align: center;
+	background: #FFF;
+}
+uni-page-body.data-v-15bb5e04,
+uni-page-wrapper.data-v-15bb5e04 {
+	height: 100%;
+}
+

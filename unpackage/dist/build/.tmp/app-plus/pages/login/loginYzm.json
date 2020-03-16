@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "注册",
+  "navigationBarBackgroundColor": "rgba(104,181,241,1)",
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {}
+}

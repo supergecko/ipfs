@@ -1,0 +1,61 @@
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('https://at.alicdn.com/t/font_1456673_4pxyw8wa6af.ttf') format('truetype');
+}
+.leftText{
+	font-size:32rpx;
+	font-family:PingFang SC;
+	font-weight:500;
+	color:rgba(23,23,25,1);
+}
+.icon {
+	font-family: iconfont;
+	margin-left: 10rpx;
+}
+.setTingItem {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(21, 20, 20, 1);
+	padding: 40rpx 30rpx 40rpx 38rpx;
+	background: #FFF;
+}
+.borderPx {
+	height: 1rpx;
+}
+.loginOut {
+	width:670rpx;
+	height:96rpx;
+	background:rgba(66,162,236,1);
+	opacity:0.92;
+	border-radius:12rpx;
+	font-size:34rpx;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(245,245,245,1);
+	line-height: 96rpx;
+	text-align: center;
+	margin: 0 auto;
+}
+.pop-item {
+	height: 100rpx;
+	border-bottom: 1rpx solid rgb(245, 245, 245);
+	background-color: #fff;
+	line-height: 100rpx;
+	display: block;
+	text-align: center;
+	font-size: 34rpx;
+	color: #151414;
+}
+uni-page-body,
+uni-page-wrapper {
+	height: 100%;
+}
+

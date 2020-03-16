@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "账号密码登录",
+  "navigationBarBackgroundColor": "rgba(104,181,241,1)",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "close"
+      }
+    ],
+    "titleColor": "#fff"
+  },
+  "usingComponents": {}
+}

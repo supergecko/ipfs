@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "重置密码",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "titleColor": "#000"
+  },
+  "usingComponents": {}
+}

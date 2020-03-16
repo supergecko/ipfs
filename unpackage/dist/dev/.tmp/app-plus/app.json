@@ -1,0 +1,94 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/wholesale/wholesale",
+    "pages/partner/partner",
+    "pages/productInfo/productInfo",
+    "pages/address/address",
+    "pages/address/addBTC",
+    "pages/consignee/consignee",
+    "pages/add/add",
+    "pages/agreement/agreement",
+    "pages/attention/attention",
+    "pages/mill/mill",
+    "pages/setting/setting",
+    "pages/setting/replacePhone",
+    "pages/setting/userInfo",
+    "pages/about/about",
+    "pages/jackpot/jackpot",
+    "pages/generalize/generalize",
+    "pages/introduce/introduce",
+    "pages/user/user",
+    "pages/myPromotion/myPromotion",
+    "pages/myOrder/myOrder",
+    "pages/orderDetails/orderDetails",
+    "pages/control/bindingPool",
+    "pages/chargeRecharge/chargeRecharge",
+    "pages/coupon/coupon",
+    "pages/Account/Account",
+    "pages/orderStatus/orderStatus",
+    "pages/control/control",
+    "pages/login/loginPas",
+    "pages/login/loginYzm",
+    "pages/login/reset"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#42A2EC",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/tabBar/home.png",
+        "selectedIconPath": "static/images/tabBar/homeSelect.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/wholesale/wholesale",
+        "iconPath": "static/images/tabBar/wholesale.png",
+        "selectedIconPath": "static/images/tabBar/wholesaleSelect.png",
+        "text": "拼团"
+      },
+      {
+        "pagePath": "pages/jackpot/jackpot",
+        "iconPath": "static/images/tabBar/jackpot.png",
+        "selectedIconPath": "static/images/tabBar/jackpotSelect.png",
+        "text": "奖池"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "iconPath": "static/images/tabBar/generalize.png",
+        "selectedIconPath": "static/images/tabBar/generalizeSelect.png",
+        "text": "推广返佣"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "iconPath": "static/images/tabBar/partner.png",
+        "selectedIconPath": "static/images/tabBar/partnerSelect.png",
+        "text": "合伙人招募"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/images/tabBar/personage.png",
+        "selectedIconPath": "static/images/tabBar/personageSelect.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "雷猫矿机商城",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

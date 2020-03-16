@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "矿机拼团",
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "usingComponents": {
+    "head": "/common/header"
+  }
+}

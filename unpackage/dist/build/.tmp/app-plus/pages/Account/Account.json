@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "账户中心",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "titleNView": true,
+  "usingComponents": {
+    "q-s-tabs": "/components/QS-tabs/QS-tabs"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "电费缴纳",
+  "navigationBarBackgroundColor": "rgb(68,163,236)",
+  "navigationBarTextStyle": "white",
+  "titleNView": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

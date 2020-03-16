@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleColor": "#fff",
+    "backgroundColor": "#4CA8EE"
+  },
+  "usingComponents": {}
+}

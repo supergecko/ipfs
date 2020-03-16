@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "钱包地址",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleColor": "black"
+  },
+  "usingComponents": {}
+}

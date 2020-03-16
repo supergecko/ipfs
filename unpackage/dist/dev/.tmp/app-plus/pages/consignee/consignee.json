@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "收货地址",
+  "navigationBarBackgroundColor": "rgb(0,28,88)",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {}
+}

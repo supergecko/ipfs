@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "奖池",
+  "navigationBarBackgroundColor": "rgb(0,28,88)",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {}
+}

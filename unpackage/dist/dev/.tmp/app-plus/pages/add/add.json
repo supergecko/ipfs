@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "添加收货地址",
+  "navigationBarBackgroundColor": "rgb(0,28,88)",
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

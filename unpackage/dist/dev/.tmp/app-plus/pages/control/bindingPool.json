@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "绑定矿池",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

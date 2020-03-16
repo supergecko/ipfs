@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"雷猫矿机商城","entryPagePath":"pages/home/home.html","page":{"pages/home/home.html":{"window":{"navigationBarTitleText":"首页","enablePullDownRefresh":true,"titleNView":false,"usingComponents":{}}},"pages/wholesale/wholesale.html":{"window":{"navigationBarTitleText":"矿机拼团","enablePullDownRefresh":true,"titleNView":false,"usingComponents":{"head":"/common/header"}}},"pages/partner/partner.html":{"window":{"navigationBarTitleText":"合伙人招募","titleNView":false,"usingComponents":{}}},"pages/productInfo/productInfo.html":{"window":{"navigationBarTitleText":"产品信息","titleNView":{"titleColor":"black"},"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup","uni-number-box":"/components/uni-number-box/uni-number-box"}}},"pages/address/address.html":{"window":{"navigationBarTitleText":"钱包地址","enablePullDownRefresh":true,"titleNView":{"titleColor":"black"},"usingComponents":{}}},"pages/address/addBTC.html":{"window":{"navigationBarTitleText":"新增线上钱包地址","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/consignee/consignee.html":{"window":{"navigationBarTitleText":"收货地址","navigationBarBackgroundColor":"rgb(0,28,88)","enablePullDownRefresh":true,"titleNView":{"titleColor":"#fff"},"usingComponents":{}}},"pages/add/add.html":{"window":{"navigationBarTitleText":"添加收货地址","navigationBarBackgroundColor":"rgb(0,28,88)","titleNView":{"titleColor":"#fff"},"usingComponents":{"w-picker":"/components/w-picker/w-picker"}}},"pages/agreement/agreement.html":{"window":{"navigationBarTitleText":"雷猫矿机共享服务协议","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/attention/attention.html":{"window":{"navigationBarTitleText":"注意事项","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/mill/mill.html":{"window":{"navigationBarTitleText":"雷猫矿场","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/setting/setting.html":{"window":{"navigationBarTitleText":"设置","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/setting/replacePhone.html":{"window":{"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/setting/userInfo.html":{"window":{"navigationBarTitleText":"个人信息","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/about/about.html":{"window":{"navigationBarTitleText":"关于我们","navigationBarBackgroundColor":"#fff","titleNView":{},"usingComponents":{}}},"pages/jackpot/jackpot.html":{"window":{"navigationBarTitleText":"奖池","navigationBarBackgroundColor":"rgb(0,28,88)","enablePullDownRefresh":true,"titleNView":{"titleColor":"#fff"},"usingComponents":{}}},"pages/generalize/generalize.html":{"window":{"navigationBarTitleText":"我的团队","navigationBarBackgroundColor":"#fff","enablePullDownRefresh":true,"usingComponents":{"uni-swiper-dot":"/components/uni-swiper-dot/uni-swiper-dot"}}},"pages/introduce/introduce.html":{"window":{"navigationBarTitleText":"推广返佣","navigationBarBackgroundColor":"#4C38D8","titleNView":{"titleColor":"#fff"},"usingComponents":{}}},"pages/user/user.html":{"window":{"navigationBarTitleText":"个人中心","enablePullDownRefresh":true,"titleNView":false,"usingComponents":{}}},"pages/myPromotion/myPromotion.html":{"window":{"navigationBarTitleText":"我的推广","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#fff","titleNView":true,"usingComponents":{}}},"pages/myOrder/myOrder.html":{"window":{"navigationBarTitleText":"我的订单","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#fff","titleNView":{"buttons":[{"type":"back","float":"left","color":"#000000"}],"titleColor":"black"},"usingComponents":{"q-s-tabs":"/components/QS-tabs/QS-tabs","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/orderDetails/orderDetails.html":{"window":{"navigationBarTitleText":"订单详情","navigationBarTextStyle":"white","navigationBarBackgroundColor":"rgb(68,163,236)","titleNView":true,"usingComponents":{}}},"pages/control/bindingPool.html":{"window":{"navigationBarTitleText":"绑定矿池","navigationBarTextStyle":"black","navigationBarBackgroundColor":"#fff","titleNView":true,"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/chargeRecharge/chargeRecharge.html":{"window":{"navigationBarTitleText":"电费缴纳","navigationBarBackgroundColor":"rgb(68,163,236)","navigationBarTextStyle":"white","titleNView":true,"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/coupon/coupon.html":{"window":{"navigationBarTitleText":"我的礼券","navigationBarBackgroundColor":"rgb(245,245,245)","enablePullDownRefresh":true,"titleNView":true,"usingComponents":{}}},"pages/Account/Account.html":{"window":{"navigationBarTitleText":"账户中心","navigationBarBackgroundColor":"#fff","enablePullDownRefresh":true,"titleNView":true,"usingComponents":{"q-s-tabs":"/components/QS-tabs/QS-tabs"}}},"pages/orderStatus/orderStatus.html":{"window":{"navigationBarTitleText":"订单状态","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#fff","titleNView":true,"usingComponents":{"q-s-tabs":"/components/QS-tabs/QS-tabs"}}},"pages/control/control.html":{"window":{"navigationBarTitleText":"控制面板","enablePullDownRefresh":true,"titleNView":{"titleColor":"#fff","backgroundColor":"#4CA8EE","buttons":[{"text":"订单状态","fontSize":"30upx","color":"#fff","float":"right","width":"auto"},{"type":"back","float":"left"}]},"usingComponents":{}}},"pages/login/loginPas.html":{"window":{"navigationBarTitleText":"账号密码登录","navigationBarBackgroundColor":"rgba(104,181,241,1)","enablePullDownRefresh":true,"titleNView":{"buttons":[{"type":"close"}],"titleColor":"#fff"},"usingComponents":{}}},"pages/login/loginYzm.html":{"window":{"navigationBarTitleText":"验证码登录","navigationBarBackgroundColor":"rgba(104,181,241,1)","titleNView":{"titleColor":"#fff"},"usingComponents":{}}},"pages/login/reset.html":{"window":{"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#fff","titleNView":{"titleColor":"#000"},"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#666666","selectedColor":"#42A2EC","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/home/home.html","iconPath":"static/images/tabBar/home.png","selectedIconPath":"static/images/tabBar/homeSelect.png","text":"首页"},{"pagePath":"pages/wholesale/wholesale.html","iconPath":"static/images/tabBar/wholesale.png","selectedIconPath":"static/images/tabBar/wholesaleSelect.png","text":"拼团"},{"pagePath":"pages/jackpot/jackpot.html","iconPath":"static/images/tabBar/jackpot.png","selectedIconPath":"static/images/tabBar/jackpotSelect.png","text":"奖池"},{"pagePath":"pages/introduce/introduce.html","iconPath":"static/images/tabBar/generalize.png","selectedIconPath":"static/images/tabBar/generalizeSelect.png","text":"推广返佣"},{"pagePath":"pages/partner/partner.html","iconPath":"static/images/tabBar/partner.png","selectedIconPath":"static/images/tabBar/partnerSelect.png","text":"合伙人招募"},{"pagePath":"pages/user/user.html","iconPath":"static/images/tabBar/personage.png","selectedIconPath":"static/images/tabBar/personageSelect.png","text":"个人中心"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/home/home","pages/wholesale/wholesale","pages/partner/partner","pages/productInfo/productInfo","pages/address/address","pages/address/addBTC","pages/consignee/consignee","pages/add/add","pages/agreement/agreement","pages/attention/attention","pages/mill/mill","pages/setting/setting","pages/setting/replacePhone","pages/setting/userInfo","pages/about/about","pages/jackpot/jackpot","pages/generalize/generalize","pages/introduce/introduce","pages/user/user","pages/myPromotion/myPromotion","pages/myOrder/myOrder","pages/orderDetails/orderDetails","pages/control/bindingPool","pages/chargeRecharge/chargeRecharge","pages/coupon/coupon","pages/Account/Account","pages/orderStatus/orderStatus","pages/control/control","pages/login/loginPas","pages/login/loginYzm","pages/login/reset"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.4.2","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

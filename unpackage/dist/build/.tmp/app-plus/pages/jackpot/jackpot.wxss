@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.test.data-v-d7cd2cae {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.jackpot.data-v-d7cd2cae {
+  background-color: #000;
+  background-image: url(../../static/img/bg.1b5993f9.jpg);
+  background-size: 750rpx 669rpx;
+  background-repeat: no-repeat;
+  padding: 0 38rpx;
+}
+.jackpot .empt.data-v-d7cd2cae {
+    height: 538rpx;
+    background-color: transparent;
+}
+.jackpot .ruleWrap.data-v-d7cd2cae {
+    padding-bottom: 81rpx;
+    border: 1px solid #B38E65;
+    background-color: #021846;
+}
+.jackpot .ruleWrap .rule.data-v-d7cd2cae {
+      margin-bottom: 30rpx;
+      padding: 40rpx 35rpx;
+      box-sizing: border-box;
+      margin-left: 35rpx;
+      width: 601rpx;
+      border-bottom: 2rpx solid #A18260FF;
+      background-color: #021846;
+}
+.jackpot .ruleWrap .rule .title.data-v-d7cd2cae {
+        display: inline-block;
+        width: 360rpx;
+        height: 74rpx;
+        text-align: center;
+        line-height: 74rpx;
+        border-radius: 37rpx;
+        font-size: 34rpx;
+        color: #021846;
+        font-weight: bold;
+        background: -webkit-linear-gradient(bottom, #f7cf8d, #eeeacf);
+        background: linear-gradient(0deg, #f7cf8d, #eeeacf);
+        margin-left: 100rpx;
+        position: relative;
+        top: -74rpx;
+}
+.jackpot .ruleWrap .rule .money.data-v-d7cd2cae {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+                flex-direction: row;
+}
+.jackpot .ruleWrap .rule .money .left.data-v-d7cd2cae {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+                  align-items: center;
+          width: 50%;
+}
+.jackpot .ruleWrap .rule .money .left .item.data-v-d7cd2cae {
+            width: 180rpx;
+            border-radius: 50%;
+            background: -webkit-linear-gradient(bottom, #f7cf8d, #eeeacf);
+            background: linear-gradient(0deg, #f7cf8d, #eeeacf);
+            text-align: center;
+            height: 180rpx;
+}
+.jackpot .ruleWrap .rule .money .left .item .txt.data-v-d7cd2cae {
+              font-size: 52rpx;
+              color: #021846;
+              font-weight: bold;
+              margin-top: 40rpx;
+              display: inline-block;
+}
+.jackpot .ruleWrap .rule .money .left .item .txt2.data-v-d7cd2cae {
+              font-size: 32rpx;
+              color: #021846;
+}
+.jackpot .ruleWrap .rule .money .right.data-v-d7cd2cae {
+          width: 50%;
+}
+.jackpot .ruleWrap .rule .money .right .item .txt.data-v-d7cd2cae {
+            font-size: 36rpx;
+            display: block;
+            color: #f3daa7;
+            color: #f3daa7;
+            margin-bottom: 25rpx;
+            margin-top: 15rpx;
+}
+.jackpot .ruleWrap .rule .money .right .item .txt1.data-v-d7cd2cae {
+            color: #021846;
+            padding: 0 12rpx;
+            background-color: #f3daa7;
+            border-radius: 50%;
+            font-size: 20rpx;
+            margin-right: 16rpx;
+}
+.jackpot .ruleWrap .rule .money .right .item .txt2.data-v-d7cd2cae {
+            color: #f3daa7;
+            font-size: 24rpx;
+}
+.jackpot .ruleWrap .ruleNum .item.data-v-d7cd2cae {
+      margin-bottom: 10rpx;
+}
+.jackpot .ruleWrap .ruleNum .item .txt1.data-v-d7cd2cae {
+        color: #021846;
+        padding: 0 10rpx;
+        background-color: #f3daa7;
+        border-radius: 50%;
+        font-size: 20rpx;
+        margin-right: 16rpx;
+        margin-left: 15rpx;
+}
+.jackpot .ruleWrap .ruleNum .item .txt2.data-v-d7cd2cae {
+        color: #f3daa7;
+        font-size: 24rpx;
+}
+.jackpot .ruleWrap .btn.data-v-d7cd2cae {
+      width: 526rpx;
+      height: 90rpx;
+      background: -webkit-linear-gradient(bottom, #f7cf8d, #eeeacf);
+      background: linear-gradient(0deg, #f7cf8d, #eeeacf);
+      border-radius: 10rpx;
+      text-align: center;
+      line-height: 90rpx;
+      font-size: 30rpx;
+      color: #021846;
+      display: block;
+      margin: 62rpx 0 0 56rpx;
+}
+.jackpot .Crunchies.data-v-d7cd2cae {
+    margin-top: 70rpx;
+}
+.jackpot .Crunchies .title.data-v-d7cd2cae {
+      text-align: center;
+}
+.jackpot .Crunchies .title .img.data-v-d7cd2cae {
+        width: 50rpx;
+        height: 40rpx;
+        margin-right: 13rpx;
+}
+.jackpot .Crunchies .title .name.data-v-d7cd2cae {
+        color: #f3daa7;
+        font-size: 34rpx;
+}
+.jackpot .Crunchies .table.data-v-d7cd2cae {
+      margin-top: 27rpx;
+}
+.jackpot .Crunchies .table .title.data-v-d7cd2cae {
+        height: 61rpx;
+        line-height: 61rpx;
+        background: rgba(139, 105, 68, 0.43);
+}
+.jackpot .Crunchies .table .title .txt.data-v-d7cd2cae {
+          font-size: 24rpx;
+          color: #f3daa7;
+}
+.jackpot .Crunchies .table .title .txt1.data-v-d7cd2cae {
+          display: inline-block;
+          width: 15%;
+}
+.jackpot .Crunchies .table .title .txt2.data-v-d7cd2cae {
+          display: inline-block;
+          width: 25%;
+}
+.jackpot .Crunchies .table .title .txt3.data-v-d7cd2cae {
+          display: inline-block;
+          width: 30%;
+}
+.jackpot .Crunchies .table .title .txt4.data-v-d7cd2cae {
+          display: inline-block;
+          width: 30%;
+}
+.jackpot .Crunchies .btn.data-v-d7cd2cae {
+      width: 526rpx;
+      height: 90rpx;
+      background: -webkit-linear-gradient(bottom, #f7cf8d, #eeeacf);
+      background: linear-gradient(0deg, #f7cf8d, #eeeacf);
+      border-radius: 10rpx;
+      font-size: 30rpx;
+      color: #021846;
+      text-align: center;
+      line-height: 90rpx;
+      display: block;
+      margin-left: 66rpx;
+      margin-top: 60rpx;
+}
+.wrap.data-v-d7cd2cae {
+  background-color: #021946;
+  padding-bottom: 80rpx;
+}
+.total.data-v-d7cd2cae {
+  padding: 50rpx 0 0 0;
+}
+.total .txt.data-v-d7cd2cae {
+    font-size: 27rpx;
+    color: #f3daa7;
+}
+.total .txt2.data-v-d7cd2cae {
+    font-size: 42rpx;
+    color: #f3daa7;
+}
+

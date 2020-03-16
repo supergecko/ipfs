@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "控制面板",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleColor": "#fff",
+    "backgroundColor": "#4CA8EE",
+    "buttons": [
+      {
+        "text": "订单状态",
+        "fontSize": "30upx",
+        "color": "#fff",
+        "float": "right",
+        "width": "auto"
+      },
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

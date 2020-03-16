@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的礼券",
+  "navigationBarBackgroundColor": "rgb(245,245,245)",
+  "enablePullDownRefresh": true,
+  "titleNView": true,
+  "usingComponents": {}
+}

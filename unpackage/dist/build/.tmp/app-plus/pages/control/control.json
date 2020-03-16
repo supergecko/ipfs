@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "控制面板",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleColor": "#fff",
+    "backgroundColor": "#4CA8EE"
+  },
+  "usingComponents": {}
+}

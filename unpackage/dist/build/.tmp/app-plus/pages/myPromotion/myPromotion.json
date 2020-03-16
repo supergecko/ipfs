@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的推广",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-input": "/components/uni-input/uni-input"
+  }
+}
